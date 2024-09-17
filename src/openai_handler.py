@@ -1,11 +1,10 @@
+import os
 import sys
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from openai import OpenAI
 from dotenv import load_dotenv
-import os
 import time
 import json
-from twilio_handler import send_whatsapp_message
 
 #Load environment variables from .env file
 load_dotenv()
@@ -84,5 +83,4 @@ def main():
 
 
 if __name__ == "__main__":
-    print(f"Twilio Account SID: {TWILIO_ACCOUNT_SID[:5]}...")
     main()
