@@ -17,8 +17,8 @@ load_dotenv()
 #Get Twilio credentials from environment variables
 twilio_account_sid = os.getenv('TWILIO_ACCOUNT_SID')
 twilio_auth_token = os.getenv('TWILIO_AUTH_TOKEN')
-twilio_phone_number = "+14155238886"
-to_phone_number = "+16507096037"
+twilio_phone_number = "+14155238886" #Twilio whatsapp sandbox number
+to_phone_number = "+16507096037" #Mario Bermudez number
 
 #twilio access
 twilio_client = TwilioClient(twilio_account_sid, twilio_auth_token)
@@ -28,7 +28,7 @@ openai_client = OpenAI()
 #Create a thread for openai assistant
 openai_thread = create_thread(openai_client)
 
-#Assistant ID
+#Assistant ID (from OpenAI Assistants Playground)
 assistant_id = "asst_V8PYYXOba0CpeyYEKAzMXZPU"
 
 #Start Flask app
@@ -37,7 +37,7 @@ app = Flask(__name__)
 @app.route("/webhook", methods=['POST'])
 def incoming_message():
     # Print all incoming data for debugging
-    print("Incoming request data:", request.form)
+    #print("Incoming request data:", request.form)
 
     # Extract incoming message and sender number
     incoming_msg = request.form.get('Body')
@@ -49,6 +49,8 @@ def incoming_message():
         return '', 400  # Bad Request if no data
 
     print(f'Received message from {sender_number}: {incoming_msg}')
+    print()
+    print()
 
     try:
         #Send message to OpenAI assistant
@@ -61,7 +63,9 @@ def incoming_message():
         assistant_response = messages.data[0].content[0].text.value
 
         #Send the assistant response back to whatsapp
-        print(f"Assistant response: {assistant_response}")
+        print(f"OpenAI response: {assistant_response}")
+        print()
+        print()
         send_whatsapp_message(sender_number, assistant_response)
     except Exception as e:
         print(f"Error processing OpenAI: {str(e)}")
@@ -77,7 +81,8 @@ def send_whatsapp_message(to_number, message_body):
             from_ = f'whatsapp:{twilio_phone_number}',
             to=to_number
         )
-        print(f"Message sent. SID: {message.sid}")
+        #Print message for debugging purposes
+        #print(f"Message sent. SID: {message.sid}")
     except Exception as e:
         print(f"Error sending message: {str(e)}")
 
@@ -94,4 +99,6 @@ if __name__ == '__main__':
     send_whatsapp_message(f'whatsapp:{to_phone_number}', message_body)
     while True:
         message_body = input("Enter your message: ")
-        send_whatsapp_message(to_number, message_body)
+        send_whatsapp_message(f'whatsapp:{to_phone_number}', message_body)
+        print()
+        print()
