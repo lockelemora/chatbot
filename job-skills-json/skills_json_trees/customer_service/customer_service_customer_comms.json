@@ -1,0 +1,674 @@
+{
+  "Skills": [
+    {
+      "id": 1,
+      "name": "customer_communication",
+      "category": "soft_skill",
+      "subcategory": "interpersonal",
+      "description": "Ability to effectively communicate with customers, understand their needs, and provide appropriate solutions",
+      "industry": "customer_service",
+      "created_at": "2023-09-24T09:00:00Z",
+      "updated_at": "2023-09-24T09:00:00Z",
+      "Evaluations": [
+        {
+          "id": 1,
+          "name": "active_listening_assessment",
+          "description": "Evaluation of active listening skills in customer interactions",
+          "difficulty_level": "beginner",
+          "evaluation_type": "multiple_choice",
+          "passing_score": 70.0,
+          "version": 1,
+          "time_limit": 15,
+          "is_active": true,
+          "created_at": "2023-09-24T09:05:00Z",
+          "updated_at": "2023-09-24T09:05:00Z",
+          "EvaluationSkills": [
+            {
+              "id": 1,
+              "evaluation_id": 1,
+              "skill_id": 1,
+              "weight": 1.0,
+              "created_at": "2023-09-24T09:06:00Z",
+              "updated_at": "2023-09-24T09:06:00Z"
+            }
+          ],
+          "Questions": [
+            {
+              "id": 1,
+              "evaluation_id": 1,
+              "question_text": "A customer is explaining a problem, but you're not sure you understand. What should you do?",
+              "question_type": "multiple_choice",
+              "difficulty_level": "beginner",
+              "points": 1,
+              "order_number": 1,
+              "created_at": "2023-09-24T09:10:00Z",
+              "updated_at": "2023-09-24T09:10:00Z",
+              "QuestionSkills": [
+                {
+                  "id": 1,
+                  "question_id": 1,
+                  "skill_id": 1,
+                  "created_at": "2023-09-24T09:10:30Z",
+                  "updated_at": "2023-09-24T09:10:30Z"
+                }
+              ],
+              "QuestionOptions": [
+                {
+                  "id": 1,
+                  "question_id": 1,
+                  "option_text": "Interrupt the customer to ask questions",
+                  "is_correct": false,
+                  "order_number": 1,
+                  "created_at": "2023-09-24T09:11:00Z",
+                  "updated_at": "2023-09-24T09:11:00Z"
+                },
+                {
+                  "id": 2,
+                  "question_id": 1,
+                  "option_text": "Wait until they finish, then politely ask for clarification",
+                  "is_correct": true,
+                  "order_number": 2,
+                  "created_at": "2023-09-24T09:11:00Z",
+                  "updated_at": "2023-09-24T09:11:00Z"
+                },
+                {
+                  "id": 3,
+                  "question_id": 1,
+                  "option_text": "Pretend you understand and try to solve the problem anyway",
+                  "is_correct": false,
+                  "order_number": 3,
+                  "created_at": "2023-09-24T09:11:00Z",
+                  "updated_at": "2023-09-24T09:11:00Z"
+                },
+                {
+                  "id": 4,
+                  "question_id": 1,
+                  "option_text": "Transfer the call to another agent",
+                  "is_correct": false,
+                  "order_number": 4,
+                  "created_at": "2023-09-24T09:11:00Z",
+                  "updated_at": "2023-09-24T09:11:00Z"
+                }
+              ],
+              "answer": "Wait until they finish, then politely ask for clarification"
+            },
+            {
+              "id": 2,
+              "evaluation_id": 1,
+              "question_text": "Which of the following is NOT an example of active listening?",
+              "question_type": "multiple_choice",
+              "difficulty_level": "beginner",
+              "points": 1,
+              "order_number": 2,
+              "created_at": "2023-09-24T09:12:00Z",
+              "updated_at": "2023-09-24T09:12:00Z",
+              "QuestionSkills": [
+                {
+                  "id": 2,
+                  "question_id": 2,
+                  "skill_id": 1,
+                  "created_at": "2023-09-24T09:12:30Z",
+                  "updated_at": "2023-09-24T09:12:30Z"
+                }
+              ],
+              "QuestionOptions": [
+                {
+                  "id": 5,
+                  "question_id": 2,
+                  "option_text": "Paraphrasing what the customer said",
+                  "is_correct": false,
+                  "order_number": 1,
+                  "created_at": "2023-09-24T09:13:00Z",
+                  "updated_at": "2023-09-24T09:13:00Z"
+                },
+                {
+                  "id": 6,
+                  "question_id": 2,
+                  "option_text": "Using verbal acknowledgments like 'I see' or 'Mm-hmm'",
+                  "is_correct": false,
+                  "order_number": 2,
+                  "created_at": "2023-09-24T09:13:00Z",
+                  "updated_at": "2023-09-24T09:13:00Z"
+                },
+                {
+                  "id": 7,
+                  "question_id": 2,
+                  "option_text": "Thinking about your response while the customer is speaking",
+                  "is_correct": true,
+                  "order_number": 3,
+                  "created_at": "2023-09-24T09:13:00Z",
+                  "updated_at": "2023-09-24T09:13:00Z"
+                },
+                {
+                  "id": 8,
+                  "question_id": 2,
+                  "option_text": "Asking relevant follow-up questions",
+                  "is_correct": false,
+                  "order_number": 4,
+                  "created_at": "2023-09-24T09:13:00Z",
+                  "updated_at": "2023-09-24T09:13:00Z"
+                }
+              ],
+              "answer": "Thinking about your response while the customer is speaking"
+            },
+            {
+              "id": 3,
+              "evaluation_id": 1,
+              "question_text": "A customer is speaking very quickly and you're having trouble following. What's the best response?",
+              "question_type": "multiple_choice",
+              "difficulty_level": "beginner",
+              "points": 1,
+              "order_number": 3,
+              "created_at": "2023-09-24T09:14:00Z",
+              "updated_at": "2023-09-24T09:14:00Z",
+              "QuestionSkills": [
+                {
+                  "id": 3,
+                  "question_id": 3,
+                  "skill_id": 1,
+                  "created_at": "2023-09-24T09:14:30Z",
+                  "updated_at": "2023-09-24T09:14:30Z"
+                }
+              ],
+              "QuestionOptions": [
+                {
+                  "id": 9,
+                  "question_id": 3,
+                  "option_text": "Tell them to slow down immediately",
+                  "is_correct": false,
+                  "order_number": 1,
+                  "created_at": "2023-09-24T09:15:00Z",
+                  "updated_at": "2023-09-24T09:15:00Z"
+                },
+                {
+                  "id": 10,
+                  "question_id": 3,
+                  "option_text": "Politely ask them to speak more slowly so you can help better",
+                  "is_correct": true,
+                  "order_number": 2,
+                  "created_at": "2023-09-24T09:15:00Z",
+                  "updated_at": "2023-09-24T09:15:00Z"
+                },
+                {
+                  "id": 11,
+                  "question_id": 3,
+                  "option_text": "Ignore it and try your best to keep up",
+                  "is_correct": false,
+                  "order_number": 3,
+                  "created_at": "2023-09-24T09:15:00Z",
+                  "updated_at": "2023-09-24T09:15:00Z"
+                },
+                {
+                  "id": 12,
+                  "question_id": 3,
+                  "option_text": "Hang up and hope they call back speaking slower",
+                  "is_correct": false,
+                  "order_number": 4,
+                  "created_at": "2023-09-24T09:15:00Z",
+                  "updated_at": "2023-09-24T09:15:00Z"
+                }
+              ],
+              "answer": "Politely ask them to speak more slowly so you can help better"
+            },
+            {
+              "id": 4,
+              "evaluation_id": 1,
+              "question_text": "Why is it important to use the customer's name during the conversation?",
+              "question_type": "multiple_choice",
+              "difficulty_level": "beginner",
+              "points": 1,
+              "order_number": 4,
+              "created_at": "2023-09-24T09:16:00Z",
+              "updated_at": "2023-09-24T09:16:00Z",
+              "QuestionSkills": [
+                {
+                  "id": 4,
+                  "question_id": 4,
+                  "skill_id": 1,
+                  "created_at": "2023-09-24T09:16:30Z",
+                  "updated_at": "2023-09-24T09:16:30Z"
+                }
+              ],
+              "QuestionOptions": [
+                {
+                  "id": 13,
+                  "question_id": 4,
+                  "option_text": "It shows you're paying attention and personalizes the interaction",
+                  "is_correct": true,
+                  "order_number": 1,
+                  "created_at": "2023-09-24T09:17:00Z",
+                  "updated_at": "2023-09-24T09:17:00Z"
+                },
+                {
+                  "id": 14,
+                  "question_id": 4,
+                  "option_text": "It's company policy",
+                  "is_correct": false,
+                  "order_number": 2,
+                  "created_at": "2023-09-24T09:17:00Z",
+                  "updated_at": "2023-09-24T09:17:00Z"
+                },
+                {
+                  "id": 15,
+                  "question_id": 4,
+                  "option_text": "It helps you remember the customer's name for future calls",
+                  "is_correct": false,
+                  "order_number": 3,
+                  "created_at": "2023-09-24T09:17:00Z",
+                  "updated_at": "2023-09-24T09:17:00Z"
+                },
+                {
+                  "id": 16,
+                  "question_id": 4,
+                  "option_text": "It's not important, you should avoid using the customer's name",
+                  "is_correct": false,
+                  "order_number": 4,
+                  "created_at": "2023-09-24T09:17:00Z",
+                  "updated_at": "2023-09-24T09:17:00Z"
+                }
+              ],
+              "answer": "It shows you're paying attention and personalizes the interaction"
+            },
+            {
+              "id": 5,
+              "evaluation_id": 1,
+              "question_text": "What should you do if you don't know the answer to a customer's question?",
+              "question_type": "multiple_choice",
+              "difficulty_level": "beginner",
+              "points": 1,
+              "order_number": 5,
+              "created_at": "2023-09-24T09:18:00Z",
+              "updated_at": "2023-09-24T09:18:00Z",
+              "QuestionSkills": [
+                {
+                  "id": 5,
+                  "question_id": 5,
+                  "skill_id": 1,
+                  "created_at": "2023-09-24T09:18:30Z",
+                  "updated_at": "2023-09-24T09:18:30Z"
+                }
+              ],
+              "QuestionOptions": [
+                {
+                  "id": 17,
+                  "question_id": 5,
+                  "option_text": "Make up an answer to avoid looking incompetent",
+                  "is_correct": false,
+                  "order_number": 1,
+                  "created_at": "2023-09-24T09:19:00Z",
+                  "updated_at": "2023-09-24T09:19:00Z"
+                },
+                {
+                  "id": 18,
+                  "question_id": 5,
+                  "option_text": "Tell the customer you don't know and end the call",
+                  "is_correct": false,
+                  "order_number": 2,
+                  "created_at": "2023-09-24T09:19:00Z",
+                  "updated_at": "2023-09-24T09:19:00Z"
+                },
+                {
+                  "id": 19,
+                  "question_id": 5,
+                  "option_text": "Transfer the call to another department without explanation",
+                  "is_correct": false,
+                  "order_number": 3,
+                  "created_at": "2023-09-24T09:19:00Z",
+                  "updated_at": "2023-09-24T09:19:00Z"
+                },
+                {
+                  "id": 20,
+                  "question_id": 5,
+                  "option_text": "Admit you're unsure, but offer to find out and get back to them",
+                  "is_correct": true,
+                  "order_number": 4,
+                  "created_at": "2023-09-24T09:19:00Z",
+                  "updated_at": "2023-09-24T09:19:00Z"
+                }
+              ],
+              "answer": "Admit you're unsure, but offer to find out and get back to them"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "empathy_assessment",
+          "description": "Evaluation of ability to understand and share customer feelings",
+          "difficulty_level": "beginner",
+          "evaluation_type": "multiple_choice",
+          "passing_score": 70.0,
+          "version": 1,
+          "time_limit": 15,
+          "is_active": true,
+          "created_at": "2023-09-24T10:05:00Z",
+          "updated_at": "2023-09-24T10:05:00Z",
+          "EvaluationSkills": [
+            {
+              "id": 2,
+              "evaluation_id": 2,
+              "skill_id": 1,
+              "weight": 1.0,
+              "created_at": "2023-09-24T10:06:00Z",
+              "updated_at": "2023-09-24T10:06:00Z"
+            }
+          ],
+          "Questions": [
+            {
+              "id": 6,
+              "evaluation_id": 2,
+              "question_text": "A customer is clearly frustrated about a delayed shipment. How should you respond?",
+              "question_type": "multiple_choice",
+              "difficulty_level": "beginner",
+              "points": 1,
+              "order_number": 1,
+              "created_at": "2023-09-24T10:10:00Z",
+              "updated_at": "2023-09-24T10:10:00Z",
+              "QuestionSkills": [
+                {
+                  "id": 6,
+                  "question_id": 6,
+                  "skill_id": 1,
+                  "created_at": "2023-09-24T10:10:30Z",
+                  "updated_at": "2023-09-24T10:10:30Z"
+                }
+              ],
+              "QuestionOptions": [
+                {
+                  "id": 21,
+                  "question_id": 6,
+                  "option_text": "Tell them delays happen and they should be patient",
+                  "is_correct": false,
+                  "order_number": 1,
+                  "created_at": "2023-09-24T10:11:00Z",
+                  "updated_at": "2023-09-24T10:11:00Z"
+                },
+                {
+                  "id": 22,
+                  "question_id": 6,
+                  "option_text": "Apologize and acknowledge their frustration before addressing the issue",
+                  "is_correct": true,
+                  "order_number": 2,
+                  "created_at": "2023-09-24T10:11:00Z",
+                  "updated_at": "2023-09-24T10:11:00Z"
+                },
+                {
+                  "id": 23,
+                  "question_id": 6,
+                  "option_text": "Immediately offer a refund to calm them down",
+                  "is_correct": false,
+                  "order_number": 3,
+                  "created_at": "2023-09-24T10:11:00Z",
+                  "updated_at": "2023-09-24T10:11:00Z"
+                },
+                {
+                  "id": 24,
+                  "question_id": 6,
+                  "option_text": "Explain that it's not your fault and transfer them to shipping",
+                  "is_correct": false,
+                  "order_number": 4,
+                  "created_at": "2023-09-24T10:11:00Z",
+                  "updated_at": "2023-09-24T10:11:00Z"
+                }
+              ],
+              "answer": "Apologize and acknowledge their frustration before addressing the issue"
+            },
+            {
+              "id": 7,
+              "evaluation_id": 2,
+              "question_text": "Which of these statements shows the most empathy?",
+              "question_type": "multiple_choice",
+              "difficulty_level": "beginner",
+              "points": 1,
+              "order_number": 2,
+              "created_at": "2023-09-24T10:12:00Z",
+              "updated_at": "2023-09-24T10:12:00Z",
+              "QuestionSkills": [
+                {
+                  "id": 7,
+                  "question_id": 7,
+                  "skill_id": 1,
+                  "created_at": "2023-09-24T10:12:30Z",
+                  "updated_at": "2023-09-24T10:12:30Z"
+                }
+              ],
+              "QuestionOptions": [
+                {
+                  "id": 25,
+                  "question_id": 7,
+                  "option_text": "I understand how you feel, that must be really disappointing.",
+                  "is_correct": true,
+                  "order_number": 1,
+                  "created_at": "2023-09-24T10:13:00Z",
+                  "updated_at": "2023-09-24T10:13:00Z"
+                },
+                {
+                  "id": 26,
+                  "question_id": 7,
+                  "option_text": "Let me check our policy on that.",
+                  "is_correct": false,
+                  "order_number": 2,
+                  "created_at": "2023-09-24T10:13:00Z",
+                  "updated_at": "2023-09-24T10:13:00Z"
+                },
+                {
+                  "id": 27,
+                  "question_id": 7,
+                  "option_text": "I'll transfer you to our complaints department.",
+                  "is_correct": false,
+                  "order_number": 3,
+                  "created_at": "2023-09-24T10:13:00Z",
+                  "updated_at": "2023-09-24T10:13:00Z"
+                },
+                {
+                  "id": 28,
+                  "question_id": 7,
+                  "option_text": "You shouldn't be upset about this, it's not a big deal.",
+                  "is_correct": false,
+                  "order_number": 4,
+                  "created_at": "2023-09-24T10:13:00Z",
+                  "updated_at": "2023-09-24T10:13:00Z"
+                }
+              ],
+              "answer": "I understand how you feel, that must be really disappointing."
+            },
+            {
+              "id": 8,
+              "evaluation_id": 2,
+              "question_text": "A customer is upset because they received the wrong item. What's the best first step?",
+              "question_type": "multiple_choice",
+              "difficulty_level": "beginner",
+              "points": 1,
+              "order_number": 3,
+              "created_at": "2023-09-24T10:14:00Z",
+              "updated_at": "2023-09-24T10:14:00Z",
+              "QuestionSkills": [
+                {
+                  "id": 8,
+                  "question_id": 8,
+                  "skill_id": 1,
+                  "created_at": "2023-09-24T10:14:30Z",
+                  "updated_at": "2023-09-24T10:14:30Z"
+                }
+              ],
+              "QuestionOptions": [
+                {
+                  "id": 29,
+                  "question_id": 8,
+                  "option_text": "Immediately process a refund",
+                  "is_correct": false,
+                  "order_number": 1,
+                  "created_at": "2023-09-24T10:15:00Z",
+                  "updated_at": "2023-09-24T10:15:00Z"
+                },
+                {
+                  "id": 30,
+                  "question_id": 8,
+                  "option_text": "Tell them to return the item before you can help",
+                  "is_correct": false,
+                  "order_number": 2,
+                  "created_at": "2023-09-24T10:15:00Z",
+                  "updated_at": "2023-09-24T10:15:00Z"
+                },
+                {
+                  "id": 31,
+                  "question_id": 8,
+                  "option_text": "Apologize and assure them you'll help resolve the issue",
+                  "is_correct": true,
+                  "order_number": 3,
+                  "created_at": "2023-09-24T10:15:00Z",
+                  "updated_at": "2023-09-24T10:15:00Z"
+                },
+                {
+                  "id": 32,
+                  "question_id": 8,
+                  "option_text": "Ask if they're sure they ordered the right item",
+                  "is_correct": false,
+                  "order_number": 4,
+                  "created_at": "2023-09-24T10:15:00Z",
+                  "updated_at": "2023-09-24T10:15:00Z"
+                }
+              ],
+              "answer": "Apologize and assure them you'll help resolve the issue"
+            },
+            {
+              "id": 9,
+              "evaluation_id": 2,
+              "question_text": "Why is empathy important in customer service?",
+              "question_type": "multiple_choice",
+              "difficulty_level": "beginner",
+              "points": 1,
+              "order_number": 4,
+              "created_at": "2023-09-24T10:16:00Z",
+              "updated_at": "2023-09-24T10:16:00Z",
+              "QuestionSkills": [
+                {
+                  "id": 9,
+                  "question_id": 9,
+                  "skill_id": 1,
+                  "created_at": "2023-09-24T10:16:30Z",
+                  "updated_at": "2023-09-24T10:16:30Z"
+                }
+              ],
+              "QuestionOptions": [
+                {
+                  "id": 33,
+                  "question_id": 9,
+                  "option_text": "It helps you avoid dealing with customer problems",
+                  "is_correct": false,
+                  "order_number": 1,
+                  "created_at": "2023-09-24T10:17:00Z",
+                  "updated_at": "2023-09-24T10:17:00Z"
+                },
+                {
+                  "id": 34,
+                  "question_id": 9,
+                  "option_text": "It makes customers more likely to accept 'no' for an answer",
+                  "is_correct": false,
+                  "order_number": 2,
+                  "created_at": "2023-09-24T10:17:00Z",
+                  "updated_at": "2023-09-24T10:17:00Z"
+                },
+                {
+                  "id": 35,
+                  "question_id": 9,
+                  "option_text": "It helps build rapport and shows customers you care",
+                  "is_correct": true,
+                  "order_number": 3,
+                  "created_at": "2023-09-24T10:17:00Z",
+                  "updated_at": "2023-09-24T10:17:00Z"
+                },
+                {
+                  "id": 36,
+                  "question_id": 9,
+                  "option_text": "It's not important, facts are all that matter",
+                  "is_correct": false,
+                  "order_number": 4,
+                  "created_at": "2023-09-24T10:17:00Z",
+                  "updated_at": "2023-09-24T10:17:00Z"
+                }
+              ],
+              "answer": "It helps build rapport and shows customers you care"
+            },
+            {
+              "id": 10,
+              "evaluation_id": 2,
+              "question_text": "A customer is angry about a policy you can't change. What's the best response?",
+              "question_type": "multiple_choice",
+              "difficulty_level": "beginner",
+              "points": 1,
+              "order_number": 5,
+              "created_at": "2023-09-24T10:18:00Z",
+              "updated_at": "2023-09-24T10:18:00Z",
+              "QuestionSkills": [
+                {
+                  "id": 10,
+                  "question_id": 10,
+                  "skill_id": 1,
+                  "created_at": "2023-09-24T10:18:30Z",
+                  "updated_at": "2023-09-24T10:18:30Z"
+                }
+              ],
+              "QuestionOptions": [
+                {
+                  "id": 37,
+                  "question_id": 10,
+                  "option_text": "Tell them there's nothing you can do and end the call",
+                  "is_correct": false,
+                  "order_number": 1,
+                  "created_at": "2023-09-24T10:19:00Z",
+                  "updated_at": "2023-09-24T10:19:00Z"
+                },
+                {
+                  "id": 38,
+                  "question_id": 10,
+                  "option_text": "Agree that the policy is unfair to gain their trust",
+                  "is_correct": false,
+                  "order_number": 2,
+                  "created_at": "2023-09-24T10:19:00Z",
+                  "updated_at": "2023-09-24T10:19:00Z"
+                },
+                {
+                  "id": 39,
+                  "question_id": 10,
+                  "option_text": "Acknowledge their frustration and explain the reason for the policy",
+                  "is_correct": true,
+                  "order_number": 3,
+                  "created_at": "2023-09-24T10:19:00Z",
+                  "updated_at": "2023-09-24T10:19:00Z"
+                },
+                {
+                  "id": 40,
+                  "question_id": 10,
+                  "option_text": "Transfer them to your supervisor",
+                  "is_correct": false,
+                  "order_number": 4,
+                  "created_at": "2023-09-24T10:19:00Z",
+                  "updated_at": "2023-09-24T10:19:00Z"
+                }
+              ],
+              "answer": "Acknowledge their frustration and explain the reason for the policy"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "problem_solving_assessment",
+          "description": "Evaluation of ability to identify and resolve customer issues effectively",
+          "difficulty_level": "beginner",
+          "evaluation_type": "multiple_choice",
+          "passing_score": 70.0,
+          "version": 1,
+          "time_limit": 15,
+          "is_active": true,
+          "created_at": "2023-09-24T11:05:00Z",
+          "updated_at": "2023-09-24T11:05:00Z",
+          "EvaluationSkills": [
+            {
+              "id": 3,
+              "evaluation_id": 3,
+              "skill_id": 1,
+              "weight": 1.0,
+              "created_at": "2023-09-24T11:06:00Z",
+              "updated_at": "2023-09-24T11:06:00Z"
+            }
+          ],
